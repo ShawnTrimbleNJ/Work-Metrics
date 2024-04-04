@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="progress"><div id="bar"></div></div>
+    <div class="container">
+        <div class="wrapper">
+            <select name="Department" id="Department">
+                <option hidden selected>Department</option>
+                <option value="Repair">Repair</option>
+                <option value="QA">QA</option>
+            </select>
+
+            <select name="Level" id="Level">
+                <option hidden selected>Level</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+
+            <input placeholder="Hours Worked" type="number" name="Hours" id="Hours"/>
+
+            <input placeholder="Monthly Performance" type="number" name="Performance" id="Performance"/>
+
+            <output name="Monthly" id="Monthly"></output>
+
+            <output name="Hourly" id="Hourly"></output>
+        </div>
+    </div>
+</body>
+</html>
